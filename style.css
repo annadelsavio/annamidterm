@@ -4,6 +4,7 @@ body {
 }
 
 .bod {
+
   margin-left: 60px;
 }
 
@@ -108,6 +109,7 @@ h1 {
 
 p{
   width: 600px;
+  max-width: 80%;
   text-align: 40px;
   font-family: "Georgia", sans-serif;
   font-size: 18px;
@@ -118,8 +120,37 @@ p{
 
 .embedimage img{
   width: 600px;
+  max-width: 80%;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.restauranttext a{
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+}
+
+.restauranttext h1{
+  width: 120px;
+  max-width: 30%;
+  float: left;
+  font-size: 15px;
+
+}
+
+.restaurantimage img{
+  max-height:200px;
+  max-width: 60%;
+  float: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  background-color: white;
 }
 
 .footer ul{
@@ -131,7 +162,9 @@ p{
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  position:absolute;
   /*height: 120px;*/
+
 }
 
 .footer a{
