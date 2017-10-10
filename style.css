@@ -7,24 +7,38 @@ body {
   margin-left: 60px;
 }
 
+header{
+  margin-left: 10px;
+}
+
 header a{
   color:black;
   background:rgba(40,40,40,); 
   display:inline-block; 
-  padding:0px 10px; 
-  height:30px;
-  line-height:30px; 
-  text-align:left; 
+  padding:5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  /*height:50px;
+  line-height:40px;*/
+  text-align:left;
   text-decoration:none;
   text-transform:uppercase; 
   letter-spacing:2px;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	color: black;
-	margin-bottom: 10px;
   padding: 0px;
+}
+
+.bod h2{
+  font-family: "Trade Gothic Condensed","Helvetica",sans-serif;
+  font-size: 15px;
+  color: #265ea7;
+  letter-spacing: 0.02em;
+
 }
 
 .subhead h1{
@@ -39,6 +53,7 @@ h1 {
 }
 
 .headline h1{
+  margin-top: 20px;
   font-family: "Georgia", sans-serif;
   font-weight: bold;
   max-width: 80%;
@@ -50,10 +65,9 @@ h1 {
 	/*float:left;*/
   display: inline;
   margin: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding: 10px;
 }
-
 
 .headerimage img {
   display: block;
@@ -70,6 +84,26 @@ h1 {
   display:inline;
   margin-right: 15px;
   font-size: 14px;
+}
+
+.homefeatured h1{
+  text-decoration: none;
+  color: black;
+  width: 500px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.homefeatured a{
+  text-decoration: none;
+  color: black;
+}
+
+.featuredimage img{
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 p{
@@ -94,26 +128,38 @@ p{
   text-decoration: none;
   width: 100%;
   margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-  padding: 60px;
-  /*vertical-align: text-top;*/
+  /*height: 120px;*/
 }
 
 .footer a{
-  width: 100%;
   color: white;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /*margin: 10px;*/
 }
 
 .footer li{
   display: inline;
-  padding: 15px;
+  /*padding: 15px;*/
+  margin:20px 20px 20px 20px;
   /*padding-bottom: 20px;*/
   border: 1px solid black;
-  margin-bottom: 10px;
-
 }
+
+.direct{
+  font-style: italic;
+}
+.go{
+  font-style: normal;
+  font-weight: bold;
+}
+
+
 
 
 /*reference: http://www.wweek.com/restaurants/2017/10/03/downtowns-dil-se-makes-the-best-south-indian-dosas-weve-had-in-portland-city-limits/*/
